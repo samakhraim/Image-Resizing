@@ -1,6 +1,4 @@
-Perfect 👍 Let me give you the **full, polished README.md** you can drop straight into your project root.
 
----
 
 # 🖼️ Image Resizer API
 
