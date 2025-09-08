@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "An Express API built with TypeScript, tested with Jasmine, linted with ESLint, and formatted with Prettier",
   "main": "dist/index.js",
-  "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon --watch src --exec ts-node src/index.ts",
-    "build": "tsc",
+"scripts": {
+  "start": "node dist/index.js",
+  "dev": "nodemon --watch src --exec ts-node src/index.ts",
+  "build": "tsc",
   "test": "jasmine --config=jasmine.json",
-    "test:watch": "jasmine --watch",
-    "lint": "eslint \"src/**/*.{ts,js}\" --fix",
-    "prettier": "prettier --write \"src/**/*.{ts,js,json,md}\""
-  },
+  "lint": "eslint \"src/**/*.{ts,js}\" --fix",
+  "prettier": "prettier --write \"src/**/*.{ts,js,json,md}\""
+},
+
   "author": "Sama Khraim",
   "license": "ISC",
   "dependencies": {
