@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* File Layout */
+    "rootDir": "./src",
+    "outDir": "./dist",
+  "baseUrl": "./src",
+    "resolveJsonModule": true,
+    /* Environment Settings */
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+
+    /* Types */
+    "types": ["node", "jasmine"]   ,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Output Options */
+    "sourceMap": true,
+    "declaration": true,
+
+    /* Strict Type Checking */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* Module Options */
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

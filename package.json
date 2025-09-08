@@ -1,0 +1,38 @@
+{
+  "name": "image-resizer-api",
+  "version": "1.0.0",
+  "description": "An Express API built with TypeScript, tested with Jasmine, linted with ESLint, and formatted with Prettier",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
+    "build": "tsc",
+  "test": "jasmine --config=jasmine.json",
+    "test:watch": "jasmine --watch",
+    "lint": "eslint \"src/**/*.{ts,js}\" --fix",
+    "prettier": "prettier --write \"src/**/*.{ts,js,json,md}\""
+  },
+  "author": "Sama Khraim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/jasmine": "^5.1.9",
+    "@types/node": "^24.3.1",
+    "@types/supertest": "^6.0.3",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "jasmine": "^5.10.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.3.3",
+    "supertest": "^7.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
